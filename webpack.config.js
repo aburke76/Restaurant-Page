@@ -10,10 +10,17 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             hash: true,
-            title: "Childhoods",
-            myPageHeader: "Hello World",
+            title: "Childhood",
             template: "./src/index.html",
-            filename: "./dist/index.html", //relative to root of the application
+            filename: "index.html", //relative to root of the application
         }),
     ],
+    module: {
+        rules: [
+            {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
+            },
+        ],
+    },
 };
