@@ -1,1 +1,1 @@
-alert("GET FUCKED");
+import "./styles.css";
