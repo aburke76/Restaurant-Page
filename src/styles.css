@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 @font-face {
@@ -27,6 +27,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
     background-color: var(--dark-purple);
 }
 
@@ -89,12 +90,13 @@ button {
 button:hover {
     cursor: pointer;
     text-shadow: 0 0 5px var(--cream);
+    font-weight: 600;
 }
 
 footer {
     margin-top: auto;
     display: flex;
-    width: 100vw;
+    width: 100%;
     color: var(--cream);
     justify-content: center;
     border-top: 2px solid var(--lavender);
