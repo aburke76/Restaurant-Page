@@ -1,17 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Rubrik";
+    src: url("./fonts/Rubik_Scribble/RubikScribble-Regular.ttf")
+        format("truetype");
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("./fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf")
+        format("truetype");
+}
+
+:root {
+    --dark-purple: #22223b;
+    --purple: #4a4e69;
+    --lavender: #9a8c98;
+    --beige: #c9ada7;
+    --cream: #f2e9e4;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--dark-purple);
 }
 
 h1,
 h2 {
     text-align: center;
+    font-family: "Playfair";
+    color: var(--beige);
+}
+
+h1 span {
+    font-family: "Rubrik";
 }
 
 img {
     height: 500px;
+    border-radius: 1rem 2rem 3rem;
+    box-shadow: 5px 5px 10px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    gap: 1rem;
+    margin: 1rem;
+    border-bottom: 2px solid var(--lavender);
+}
+
+button {
+    background-color: var(--dark-purple);
+    color: var(--cream);
+    border: 2px solid var(--lavender);
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 10px;
 }
 
 footer {
