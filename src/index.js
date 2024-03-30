@@ -6,10 +6,10 @@ const homeBtn = document.querySelector(".home");
 const menuBtn = document.querySelector(".menu");
 const aboutBtn = document.querySelector(".about");
 
-homeBtn.classList.add("active");
+homeBtn.setAttribute("id", "active");
 homePage();
 
 homeBtn.addEventListener("click", () => {
-    homeBtn.classList.add("active");
+    homeBtn.setAttribute("id", "active");
     homePage();
 });
