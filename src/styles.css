@@ -100,6 +100,31 @@ button {
     border-radius: 2rem;
 }
 
+.food-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 10px;
+    color: var(--cream);
+    border: 2px solid var(--lavender);
+    background-color: var(--purple);
+    border-radius: 3px;
+    box-shadow: 1px 3px 5px;
+    width: 50%;
+}
+
+.item-price {
+    display: flex;
+    justify-content: space-between;
+}
 #active {
     background-color: var(--lavender);
     color: var(--dark-purple);
