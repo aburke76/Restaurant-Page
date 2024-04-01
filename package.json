@@ -4,7 +4,8 @@
   "description": "this is a project from The Odin Project, creating a simple restaurant page using webpack and modules",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "updatePage": "git subtree push --prefix dist origin gh-pages" 
   },
   "keywords": [],
   "author": "",
