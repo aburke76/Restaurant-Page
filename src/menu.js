@@ -28,10 +28,10 @@ export const menu = function () {
         const itemDesc = document.createElement("div");
 
         item.textContent = food;
-        cost.textContent = `$${price}`;
+        cost.textContent = price;
 
-        item.style.fontWeight = "900";
-        cost.style.fontWeight = "900";
+        item.style.fontWeight = "700";
+        cost.style.fontWeight = "700";
 
         itemAndPrice.appendChild(item);
         itemAndPrice.appendChild(cost);
@@ -99,7 +99,7 @@ export const menu = function () {
         createMenuItem(
             "Texas Sheet Cake",
             "thin fudgy chocolate cake with chocolate icing",
-            "1mil"
+            "1 mil"
         ),
         createMenuItem("Cheesecake", "a slice of cheesecake, obviously", "6"),
         createMenuItem(
