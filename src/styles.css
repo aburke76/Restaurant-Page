@@ -91,6 +91,7 @@ button {
     padding: 8px;
     width: 5rem;
     transition: all ease-in 0.3s;
+    font-family: "Playfair";
 }
 
 #img-container {
@@ -113,6 +114,7 @@ button {
     flex-direction: column;
     padding: 8px;
     gap: 10px;
+    font-family: "Playfair";
     color: var(--cream);
     border: 2px solid var(--lavender);
     background-color: var(--purple);
@@ -125,6 +127,31 @@ button {
     display: flex;
     justify-content: space-between;
 }
+
+.about-div {
+    font-family: "Playfair";
+    color: var(--beige);
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone-num {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--beige);
+}
+
+.about-img {
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 1px 3px 5px;
+}
+
 #active {
     background-color: var(--lavender);
     color: var(--dark-purple);
