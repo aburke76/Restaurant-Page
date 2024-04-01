@@ -6,9 +6,6 @@ export const homePage = function () {
     const img = document.createElement("img");
     const img2 = document.createElement("img");
     const img3 = document.createElement("img");
-    const homeBtn = document.querySelector(".home");
-
-    homeBtn.disabled = true;
 
     h1.innerHTML = `Welcome to <span>Childhood's</span>`;
     h2.textContent = "Eating Here is Like Growing Up With Me!";
